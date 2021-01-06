@@ -548,10 +548,21 @@ h6.new-red{
     width: 238px;
 }
 
+.cbuttonbottom-right{
+    height: 28px;
+    width: 238px;
+    margin-left: 10px;
+}
+
 .cbuttonbottom-l{
     height: 28px;
     width: 114px;
     float: left;
+
+}
+
+.cbuttonbottom-l:hover{
+    opacity: 1;
 }
 
 .cbuttonbottom-r{
@@ -566,6 +577,26 @@ h6.new-red{
     background-image: url("../images/grey-left.png");
     float: left;
 }
+
+.btn-l-blue{
+    height: 28px;
+    width: 14px;
+    background-image: url("../images/grey-left copy.png");
+    float:left;
+    margin-left: -14px;
+    opacity: 1;
+}
+
+.btn-r-blue{
+    height: 28px;
+    width: 14px;
+    background-image: url("../images/grey-left-blue.png");
+    float:left;
+    margin-left: -14px;
+    opacity: 1;
+  
+}
+
 
 .btn-r{
     height: 28px;
@@ -583,10 +614,38 @@ h6.new-red{
     text-align: center;
 }
 
+.button-bridge-blue{
+    height: 28px;
+    background: #2fc1da;
+    width: 86px;
+    float:left;
+    line-height: 28px;
+    text-align: center;
+    margin-top: -29px;
+    opacity: 1;
+}
+
 .button-bridge a{
     text-decoration: none;
     color: black;
     font-size: 12px;
 }
 
+.button-wrapper-hover{
+    margin-top: 0px;
+    position: absolute;
+    opacity: 0;
+}
+
+.button-wrapper-hover:hover{
+   opacity: 1;
+}
+
+.blue-text{
+    color:  #2fc1da;
+}
+
+.green-text{
+    color: green;
+}
 
